@@ -1,0 +1,39 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  flex: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.item2 {
+  flex: 1;
+  background-color: white;
+  width: 450px; 
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+
+.container2 {
+    display: inline-block;
+    /* margin: 5px; */
+}
+
+.href-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.href{
+    display: inline-block;
+}
